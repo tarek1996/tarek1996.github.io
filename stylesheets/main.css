@@ -8,113 +8,103 @@ h1 {
     font-size: 450%;
 }
 
+/* Menu horizontal con buscador
+----------------------------------------------- */
+#menuWrapper {
+width:100%; /* Ancho del menú */
+height:35px;
+padding-left:14px;
+background:#333333; /* Color de fondo */
+border-radius:20px; /* Bordes redondeados */
+}
+.menu {
+width: 100%;
+float: left;
+font-family:"Lucida Sans Unicode", "Trebuchet Unicode MS", "Lucida Grande",sans-serif;
+font-size:13px; /* Tamaño de la fuente */
+font-weight:bold;
+}
+.menu ul {
+float:left;
+height:0px;
+list-style:none;
+margin:0;
+padding:0;
+border-radius: 0px 0px 20px 20px; /* Bordes redondeados del submenú */
+}
+.menu li{
+float:left;
+padding:0px;
+}
+.menu li a{
+background:#333333 url(http://lh4.googleusercontent.com/-iqgCHipLGx4/T5DqLrsVALI/AAAAAAAACaI/bcIY7SV8s5I/s35/separador.gif) bottom right no-repeat;
+color:#cccccc; /* Color de la fuente */
+display:block;
+font-weight:normal;
+line-height:35px;
+margin:0px;
+padding:0px 25px; /* Espacio entre cada pestaña */
+text-align:center;
+text-decoration:none;
+}
+.menu li a:hover, .menu ul li:hover a {
+background: #2580a2; /* Color de las pestañas al pasar el cursor */
+color:#FFFFFF; /* Color del texto al pasar el cursor */
+text-decoration:none;
+}
+.menu li ul {
+background:#333333; /* Color de fondo del submenú */
+display:none;
+height:auto;
+padding:0px;
+margin:0px;
+position:absolute;
+width:200px; /* Ancho del submenú */
+z-index:100;
+border-top:1px solid #fff; /* Borde superior del submenú */
+}
+.menu li:hover ul{
+display:block;
+}
+.menu li li {
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+width:200px;
+}
+.menu li:hover li a {
+background:none;
+border-radius: 0px 0px 20px 20px; /* Borde de las subpestañas */
+}
+.menu li ul a {
+display:block;
+height:35px;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+.menu li ul a:hover, .menu li ul li:hover a{
+background:#2580a2; /* Color de las subpestañas al pasar el cursor */
+color:#ffffff;
+text-decoration:none;
+}
 
- .mi-menu  {
-    border-radius: 5px;
-    list-style-type: none;
-    margin: 0 auto; /* si queremos centrarlo */
-    padding: 0;
-    /* la altura y su ancho dependerán de los textos */
-    height: 40px; 
-    width: 510px;
-    /* el color de fondo */
-    background: #555;
-    background: -moz-linear-gradient(#555,#222);
-    background: -webkit-linear-gradient(#555,#222);
-    background: -o-linear-gradient(#555,#222);
-    background: -ms-linear-gradient(#555,#222);
-    background: linear-gradient(#555,#222);
-  }
-
-  /* si es necesario, evitamos que Blogger de problemas con los saltos de línea cuando escribimos el HTML */
-  .mi-menu  br { display:none; }
-
-  /* cada item del menu */
-  .mi-menu  li {
-    display: block;
-    float: left; /* la lista se ve horizontal */
-    height: 40px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-  }
-  .mi-menu li a {
-    border-left: 1px solid #000;
-    border-right: 1px solid #666;
-    color: #EEE;
-    display: block;
-    font-family: Tahoma;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 28px;
-    padding: 0 14px;
-    margin: 6px 0;
-    text-decoration: none;
-    /* animamos el cambio de color de los textos */
-    -webkit-transition: color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out;
-    -o-transition: color .2s ease-in-out;
-    -ms-transition: color .2s ease-in-out;
-    transition: color .2s ease-in-out;
-  }
-  /* eliminamos los bordes del primer y el último */
-  .mi-menu li:first-child a { border-left: none; }
-  .mi-menu li:last-child a{ border-right: none; }
-  /* efecto hover cambia el color */
-  .mi-menu li:hover > a { color: Crimson; }
-
-  /* los submenús */
-  .mi-menu ul {
-    border-radius: 0 0 5px 5px;
-    left: 0;
-    margin: 0;
-    opacity: 0; /* no son visibles */
-    position: absolute;
-    top: 40px; /* se ubican debajo del enlace principal */
-    /* el color de fondo */
-    background: #222;
-    background: -moz-linear-gradient(#222,#555);
-    background: -webkit-linear-gradient(#22,#555);
-    background: -o-linear-gradient(#222,#555);
-    background: -ms-linear-gradient(#222,#555);
-    background: linear-gradient(#222,#555);
-    /* animamos su visibildiad */
-    -moz-transition: opacity .25s ease .1s;
-    -webkit-transition: opacity .25s ease .1s;
-    -o-transition: opacity .25s ease .1s;
-    -ms-transition: opacity .25s ease .1s;
-    transition: opacity .25s ease .1s;
-  }
-  /* son visibes al poner el cursor encima */
-  .mi-menu li:hover > ul { opacity: 1; }
-
-   /* cada un ode los items de los submenús */
-  .mi-menu ul li {
-    height: 0; /* no son visibles */
-    overflow: hidden;
-    padding: 0;
-    /* animamos su visibildiad */
-    -moz-transition: height .25s ease .1s;
-    -webkit-transition: height .25s ease .1s;
-    -o-transition: height .25s ease .1s;
-    -ms-transition: height .25s ease .1s;
-    transition: height .25s ease .1s;
-  }
-  .mi-menu li:hover > ul li {
-    height: 36px; /* los mostramos */
-    overflow: visible;
-    padding: 0;
-  }
-  .mi-menu ul li a {
-    border: none;
-    border-bottom: 1px solid #111;
-    margin: 0;
-    /* el ancho dependerá de los textos a utilizar */
-    padding: 5px 20px;
-    width: 100px;
-  }
-  /* el último n otiene un borde */
-  .mi-menu ul li:last-child a { border: none; }
-
-</style>
+#search { 
+width: 228px; /* Ancho del buscador */
+height: 22px;
+float: right;
+text-align: center;
+margin-top: 6px;
+margin-right: 6px;
+/* Imagen de fondo del buscador */
+background: url(http://4.bp.blogspot.com/_qgZA1ny_dAs/Szuhn02zO6I/AAAAAAAADdI/u2etpRWlwF8/s1600/search-bar.png) no-repeat;
+}
+#search-box {
+margin-top: 3px;
+border:0px;
+background: transparent;
+text-align:center;
+}
