@@ -344,4 +344,5 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
   }
   table {
     margin: 0 auto; /* or margin: 0 auto 0 auto */
+
   }
