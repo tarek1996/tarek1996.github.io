@@ -346,3 +346,16 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
     margin: 0 auto; /* or margin: 0 auto 0 auto */
 
   }
+  
+  h1 {
+    color: blue;
+    font-family:sans-serif;
+    font-size:30px;
+}
+
+h2 {
+    color: blue;
+    font-family:sans-serif;
+    font-size:30px;
+    text-align: center;
+}
