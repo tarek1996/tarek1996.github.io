@@ -359,3 +359,22 @@ h2 {
     font-size:30px;
     text-align: center;
 }
+
+h3 {
+    color: blue;
+    font-family:sans-serif;
+    font-size:30px;
+    text-align: center;
+}
+
+.fuentepagina {
+    color: black;
+    font-family:arial;
+    font-size:15px;
+
+}
+.historia {
+    color: black;
+    font-family:Comic Sans MS;
+    font-size:15px;
+}
