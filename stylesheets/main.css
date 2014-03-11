@@ -360,6 +360,7 @@ h2 {
     text-align: center;
 }
 
+<<<<<<< HEAD
 h3 {
     color: blue;
     font-family:sans-serif;
@@ -378,3 +379,17 @@ h3 {
     font-family:Comic Sans MS;
     font-size:15px;
 }
+=======
+.titulo-imagen {
+   font-family: arial;
+   color: #FF9626;
+   font-size:18px;
+   text-decoration: underline;
+}
+
+.texto-principal {
+font-family: "Times New Roman";
+   color: black;
+   font-size:15px;
+}
+>>>>>>> 6f8e5778614dd23202851a65559b05bb36623d4b
