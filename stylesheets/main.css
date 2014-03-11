@@ -362,7 +362,13 @@ h2 {
 
 .titulo-imagen {
    font-family: arial;
+   color: #FF9626;
+   font-size:18px;
+   text-decoration: underline;
+}
+
+.texto-principal {
+font-family: "Times New Roman";
    color: black;
    font-size:15px;
-   text-decoration: underline;
 }
