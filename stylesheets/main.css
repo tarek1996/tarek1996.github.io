@@ -359,3 +359,10 @@ h2 {
     font-size:30px;
     text-align: center;
 }
+
+.titulo-imagen {
+   font-family: arial;
+   color: black;
+   font-size:15px;
+   text-decoration: underline;
+}
