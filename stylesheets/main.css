@@ -347,27 +347,6 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 
   }
   
-  h1 {
-    color: blue;
-    font-family:sans-serif;
-    font-size:30px;
-}
-
-h2 {
-    color: blue;
-    font-family:sans-serif;
-    font-size:30px;
-    text-align: center;
-}
-
-<<<<<<< HEAD
-h3 {
-    color: blue;
-    font-family:sans-serif;
-    font-size:30px;
-    text-align: center;
-}
-
 .fuentepagina {
     color: black;
     font-family:arial;
@@ -379,7 +358,7 @@ h3 {
     font-family:Comic Sans MS;
     font-size:15px;
 }
-=======
+
 .titulo-imagen {
    font-family: arial;
    color: #FF9626;
@@ -392,4 +371,12 @@ font-family: "Times New Roman";
    color: black;
    font-size:15px;
 }
->>>>>>> 6f8e5778614dd23202851a65559b05bb36623d4b
+
+.transparente {
+    text-indent:-9999px;
+	margin:0 auto;
+	width:400px;
+	height:100px;
+	background:transparent ;
+	text-decoration: underline;
+}
