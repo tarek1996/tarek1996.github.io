@@ -8,6 +8,8 @@ h1 {
     font-size: 450%;
 }
 
+
+
 /* Menu horizontal con buscador
 ----------------------------------------------- */
 #menuWrapper {
@@ -342,9 +344,9 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
     width:100%;
     height:100%;
   }
-  table {
+ 
+ table {
     margin: 0 auto; /* or margin: 0 auto 0 auto */
-
   }
   
 .fuentepagina {
@@ -367,9 +369,48 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 }
 
 .texto-principal {
-    font-family: "Times New Roman";
-    color: black;
-    font-size:15px;
+   font-family: "Times New Roman";
+   color: black;
+   font-size:15px;
+}
+
+.titulodelequipo1 {
+    color: blue;
+    font-family:Comic Sans MS;
+    font-size:30px;
+}
+
+.titulodelequipo2 {
+    color: blue;
+    font-family:Comic Sans MS;
+    font-size:30px;
+}
+
+.titulodemotogp1 {
+    color: red;
+    font-family:Comic Sans MS;
+    font-size:25px;
+    text-align: center;
+}
+
+.titulodemotogp2 {
+    color: red;
+    font-family:Comic Sans MS;
+    font-size:25px;
+    text-align: center;
+}
+
+.titulodemotogp3 {
+    color: red;
+    font-family:Comic Sans MS;
+    font-size:25px;
+    text-align: center;
+}
+
+
+    
+.p {
+margin-bottom: 2em;
 }
 
 
@@ -378,14 +419,4 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
     font-family: "Arial";
     color: black;
     font-size:15px;
-    
-}
-
-.titulo-motogp{
-  
-    font-family: "Impact";
-    color: red;
-    font-size:25px;
-    text-align: justify;
-    
 }
