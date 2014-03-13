@@ -369,9 +369,15 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 }
 
 .texto-principal {
+<<<<<<< HEAD
    font-family: "Times New Roman";
    color: black;
    font-size:15px;
+=======
+    font-family: "Times New Roman";
+    color: black;
+    font-size:15px;
+>>>>>>> 01e73d80e05ade588b9b4622075e3281972c4638
 }
 
 .titulodelequipo1 {
@@ -420,4 +426,13 @@ margin-bottom: 2em;
 	height:100px;
 	background:transparent ;
 	text-decoration: underline;
+}
+
+
+.fechas {
+    
+    font-family: "Arial";
+    color: black;
+    font-size:15px;
+    
 }
