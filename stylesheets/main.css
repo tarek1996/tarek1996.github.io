@@ -378,12 +378,14 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
     color: blue;
     font-family:Comic Sans MS;
     font-size:30px;
+    text-align: center;
 }
 
 .titulodelequipo2 {
     color: blue;
     font-family:Comic Sans MS;
     font-size:30px;
+    text-align: center;
 }
 
 .titulodemotogp1 {
@@ -407,12 +409,27 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
     text-align: center;
 }
 
-
-    
 .p {
 margin-bottom: 2em;
 }
 
+.br {
+  margin-bottom: 2em;  
+  
+}
+.titulomarcmarquez {
+    color: red;
+    font-family:Comic Sans MS;
+    font-size:20px;
+    text-align: center; 
+}
+.estilomarcmarquez {
+    color: black;
+    font-family:Comic Sans MS;
+    font-size:12px;
+    text-align: center;
+}
+    
 
 .fechas {
     
