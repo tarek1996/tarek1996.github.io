@@ -414,7 +414,7 @@ margin-bottom: 2em;
 }
 
 .br {
-  margin-bottom: 2em;  
+  margin-bottom: 5em;  
   
 }
 .titulopilotos {
@@ -428,6 +428,12 @@ margin-bottom: 2em;
     font-family:Comic Sans MS;
     font-size:12px;
     text-align: center;
+}
+
+.biografia {
+    color: black;
+    font-family:arial;
+    font-size:14px; 
 }
     
 
