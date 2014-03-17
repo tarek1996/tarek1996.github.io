@@ -389,21 +389,21 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 }
 
 .titulodemotogp1 {
-    color: red;
+    color: blue;
     font-family:Comic Sans MS;
     font-size:25px;
     text-align: center;
 }
 
 .titulodemotogp2 {
-    color: red;
+    color: blue;
     font-family:Comic Sans MS;
     font-size:25px;
     text-align: center;
 }
 
 .titulodemotogp3 {
-    color: red;
+    color: blue;
     font-family:Comic Sans MS;
     font-size:25px;
     text-align: center;
@@ -418,7 +418,7 @@ margin-bottom: 2em;
   
 }
 .titulopilotos {
-    color: red;
+    color: Blue;
     font-family:Comic Sans MS;
     font-size:20px;
     text-align: center; 
