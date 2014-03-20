@@ -375,35 +375,35 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 }
 
 .titulodelequipo1 {
-    color: blue;
+    color: green;
     font-family:Comic Sans MS;
     font-size:30px;
     text-align: center;
 }
 
 .titulodelequipo2 {
-    color: blue;
+    color: green;
     font-family:Comic Sans MS;
     font-size:30px;
     text-align: center;
 }
 
 .titulodemotogp1 {
-    color: blue;
+    color: green;
     font-family:Comic Sans MS;
     font-size:25px;
     text-align: center;
 }
 
 .titulodemotogp2 {
-    color: blue;
+    color: green;
     font-family:Comic Sans MS;
     font-size:25px;
     text-align: center;
 }
 
 .titulodemotogp3 {
-    color: blue;
+    color: green;
     font-family:Comic Sans MS;
     font-size:25px;
     text-align: center;
@@ -418,7 +418,7 @@ margin-bottom: 2em;
   
 }
 .titulopilotos {
-    color: Blue;
+    color: green;
     font-family:Comic Sans MS;
     font-size:20px;
     text-align: center; 
